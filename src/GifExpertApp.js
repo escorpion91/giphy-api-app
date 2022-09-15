@@ -10,7 +10,6 @@ const GifExpertApp = () => {
       <h2>GifExpertApp</h2>
       <AddCategory setCategories={setCategories} />
       <hr></hr>
-      {/* <GifGrid /> */}
       <ol>
         {categories.map((category) => {
           return <GifGrid key={category} category={category} />;
