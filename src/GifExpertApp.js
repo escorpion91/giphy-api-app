@@ -3,11 +3,11 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['One Punch']);
+  const [categories, setCategories] = useState(['Cowboy Bebop']);
 
   return (
     <div>
-      <h2>GifExpertApp</h2>
+      <h3>search for any gif :) (not that one)</h3>
       <AddCategory setCategories={setCategories} />
       <hr></hr>
       <ol>
